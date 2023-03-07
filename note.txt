@@ -1,0 +1,8 @@
+sign-up:
+https://api.wei-liu.com/api/v1/Token
+get the public key:
+https://api.wei-liu.com/api/v1/Token/code
+
+pub = item1
+pubCode = item2
+var password = encrypt.encrypt(pubCode + sha512(password))
